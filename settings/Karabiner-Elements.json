@@ -237,26 +237,6 @@
       },
       "to": [{ "pointing_button": "button2" }],
       "type": "basic"
-    },
-    {
-      "from": {
-        "key_code": "left_command",
-        "modifiers": { "optional": ["any"] }
-      },
-      "parameters": { "basic.to_if_alone_timeout_milliseconds": 300 },
-      "to": [{ "key_code": "left_command", "lazy": true }],
-      "to_if_alone": [{ "key_code": "delete_or_backspace" }],
-      "type": "basic"
-    },
-    {
-      "from": {
-        "key_code": "right_command",
-        "modifiers": { "optional": ["any"] }
-      },
-      "parameters": { "basic.to_if_alone_timeout_milliseconds": 300 },
-      "to": [{ "key_code": "right_command", "lazy": true }],
-      "to_if_alone": [{ "key_code": "return_or_enter" }],
-      "type": "basic"
     }
   ]
 }
