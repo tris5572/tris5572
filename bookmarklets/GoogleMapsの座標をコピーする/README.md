@@ -18,6 +18,6 @@ latitude: 35.685729,
 
 ## ブックマークレットへの変換方法
 
-`script.js` の内容を、ブックマークレットへの変換サイトを使って変換し、変換後のスクリプトをブックマークの URL として保存します。
+`script.js` の内容を、ブラウザのブックマークの URL として保存します。
 
-変換サイトは例えば https://caiorss.github.io/bookmarklet-maker/ などがあります。
+あるいは https://www.toptal.com/developers/javascript-minifie などのようなサイトで minify することでコードを短くできます。
