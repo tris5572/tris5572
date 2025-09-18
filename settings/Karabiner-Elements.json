@@ -199,43 +199,13 @@
     {
       "conditions": [{ "type": "variable_if", "name": "layer_2", "value": 1 }],
       "from": { "key_code": "n", "modifiers": { "optional": ["any"] } },
-      "to": [{ "mouse_key": { "x": -1500 } }],
+      "to": [{ "key_code": "return_or_enter" }],
       "type": "basic"
     },
     {
       "conditions": [{ "type": "variable_if", "name": "layer_2", "value": 1 }],
-      "from": { "key_code": "m", "modifiers": { "optional": ["any"] } },
-      "to": [{ "mouse_key": { "y": 1500 } }],
-      "type": "basic"
-    },
-    {
-      "conditions": [{ "type": "variable_if", "name": "layer_2", "value": 1 }],
-      "from": { "key_code": "comma", "modifiers": { "optional": ["any"] } },
-      "to": [{ "mouse_key": { "y": -1500 } }],
-      "type": "basic"
-    },
-    {
-      "conditions": [{ "type": "variable_if", "name": "layer_2", "value": 1 }],
-      "from": { "key_code": "period", "modifiers": { "optional": ["any"] } },
-      "to": [{ "mouse_key": { "x": 1500 } }],
-      "type": "basic"
-    },
-    {
-      "conditions": [{ "type": "variable_if", "name": "layer_2", "value": 1 }],
-      "from": {
-        "key_code": "right_command",
-        "modifiers": { "optional": ["any"] }
-      },
-      "to": [{ "pointing_button": "button1" }],
-      "type": "basic"
-    },
-    {
-      "conditions": [{ "type": "variable_if", "name": "layer_2", "value": 1 }],
-      "from": {
-        "key_code": "right_option",
-        "modifiers": { "optional": ["any"] }
-      },
-      "to": [{ "pointing_button": "button2" }],
+      "from": { "key_code": "b", "modifiers": { "optional": ["any"] } },
+      "to": [{ "key_code": "delete_or_backspace" }],
       "type": "basic"
     }
   ]
