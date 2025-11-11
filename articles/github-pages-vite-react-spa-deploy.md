@@ -49,11 +49,11 @@ jobs:
           enable_jekyll: false
 ```
 
-https://github.com/tris5572/map-style/blob/a0fd3b9df455ddb6c18b9df97fbb73727a4383fd/.github/workflows/deploy.yml
+例: https://github.com/tris5572/map-style/blob/a0fd3b9df455ddb6c18b9df97fbb73727a4383fd/.github/workflows/deploy.yml
 
 ## `vite.config.ts` を編集
 
-デプロイ後のフォルダを指定するため、`vite.config.ts` に `base` として `/リポジトリ名` を追加する。
+公開される URL のディレクトリ名を指定するため、`vite.config.ts` に `base` として `/リポジトリ名` を追加する。
 
 ```ts diff
 import { defineConfig } from "vite";
