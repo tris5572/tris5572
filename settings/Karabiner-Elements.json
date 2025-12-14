@@ -132,6 +132,11 @@
       "from": { "key_code": "z", "modifiers": { "optional": ["any"] } },
       "to": [{ "key_code": "international3", "modifiers": ["left_shift"] }],
       "type": "basic"
+    },
+    {
+      "from": { "key_code": "print_screen" },
+      "to": [{ "pointing_button": "button1" }],
+      "type": "basic"
     }
   ]
 }
