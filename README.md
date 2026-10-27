@@ -1,9 +1,9 @@
 
 # About tris5572
 
-**トリス (tris)** - [Twitter](https://x.com/tris5572)・[Zenn](https://zenn.dev/tris)
+**トリス (tris)** - [Twitter (X)](https://x.com/tris5572_)・[Zenn](https://zenn.dev/tris)
 
-およそ Web フロントエンドエンジニア
+元鉄道運転士の Web エンジニア
 
 ![](https://github-readme-stats.vercel.app/api/top-langs?username=tris5572&show_icons=true&locale=en&layout=compact&hide=html,mdx,css,astro&theme=dracula)
 
